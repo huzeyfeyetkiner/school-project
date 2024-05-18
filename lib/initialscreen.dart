@@ -10,7 +10,7 @@ class InitialScreen extends StatelessWidget {
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
+            children: [
               const SizedBox(
                 height: 70,
               ),
@@ -29,7 +29,7 @@ class InitialScreen extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, '/second');
+                          Navigator.pushNamed(context, '/login');
                         },
                         style: ElevatedButton.styleFrom(
                           fixedSize: const Size(150, 50),
@@ -49,7 +49,7 @@ class InitialScreen extends StatelessWidget {
                       ),
                       ElevatedButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, '/second');
+                          Navigator.pushNamed(context, '/signup');
                         },
                         style: ElevatedButton.styleFrom(
                           fixedSize: const Size(150, 50),
@@ -75,7 +75,7 @@ class InitialScreen extends StatelessWidget {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/second');
+                      Navigator.pushNamed(context, '/login');
                     },
                     style: ElevatedButton.styleFrom(
                       fixedSize: const Size(350, 50),
