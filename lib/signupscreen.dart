@@ -146,7 +146,7 @@ class _SignupScreenState extends State<SignupScreen> {
                                     }),
                                 const Text(
                                   "I have read and accept the user agreement.",
-                                  style: TextStyle(fontSize: 16.0),
+                                  style: TextStyle(fontSize: 12.0),
                                 ),
                               ],
                             ),
