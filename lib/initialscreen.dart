@@ -75,7 +75,7 @@ class InitialScreen extends StatelessWidget {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/login');
+                      Navigator.pushNamed(context, '/recipes');
                     },
                     style: ElevatedButton.styleFrom(
                       fixedSize: const Size(350, 50),
