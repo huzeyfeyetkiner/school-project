@@ -154,7 +154,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               const SizedBox(height: 10),
                               ElevatedButton(
                                 onPressed: () {
-                                  Navigator.pushNamed(context, '/signup');
+                                  Navigator.pushNamed(context, '/recipes');
                                 },
                                 style: ElevatedButton.styleFrom(
                                   fixedSize: const Size(350, 55),
