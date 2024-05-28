@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:school_project/models/recipes_model.dart";
+import "package:school_project/widgets/ingredientscard.dart";
 
 class RecipeDetail extends StatelessWidget {
   final Recipes recipe;
@@ -40,8 +41,44 @@ class RecipeDetail extends StatelessWidget {
                 ),
               )),
           ListTile(
-            title: Text(recipe.title),
-            subtitle: Text(recipe.description),
+            title: Text(
+              recipe.title,
+              style: const TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.bold,
+                fontStyle: FontStyle.italic,
+                color: Colors.orange,
+              ),
+            ),
+            subtitle: Text(recipe.description,
+                style: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.normal,
+                  fontStyle: FontStyle.normal,
+                  color: Colors.black,
+                )),
+          ),
+
+          Expanded(
+            child: ListView.builder(
+              itemCount: recipe.ingredients.length,
+              itemBuilder: (context, index) {
+                return Padding(
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 16.0, vertical: 0.0),
+                  // child: Text(
+                  //   recipe.ingredients[index],
+                  //   style: const TextStyle(
+                  //     fontSize: 16,
+                  //     color: Colors.black,
+                  //   ),
+                  // ),
+                  child: IngredientsCard(
+                    ingredient: recipe.ingredients[index],
+                  ),
+                );
+              },
+            ),
           ),
         ],
       ),
