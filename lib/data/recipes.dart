@@ -34,7 +34,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Spaghetti Carbonara",
       image:
-          "https://www.nefisyemek.com/modul/user/fuimg/201902/15500617040.28902100.jpg",
+          "https://images.services.kitchenstories.io/6glN_4JhpVS9aUiBS7JnGsuDULA=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R2568-photo-final-_0.jpg",
       ingredients: [
         "200g spaghetti",
         "100g pancetta",
@@ -54,7 +54,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Chicken Curry",
       image:
-          "https://iaftm.tmgrup.com.tr/b5f217/1200/627/0/89/880/549?u=https://iftm.tmgrup.com.tr/2020/10/06/pratik-yemek-tarifleri-tereyagli-balik-bugulama-tarifi-nedir-balik-bugulama-nasil-yapilir-1601973944570.jpeg",
+          "https://www.allrecipes.com/thmb/FL-xnyAllLyHcKdkjUZkotVlHR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg",
       ingredients: [
         "1 lb. chicken breasts, cut into cubes",
         "2 tbsp vegetable oil",
@@ -78,7 +78,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Vegetable Stir Fry",
       image:
-          "https://cdn.ye-mek.net/App_UI/Img/out/650/2020/05/firinda-tavuk-sis-resimli-yemek-tarifi(15).jpg",
+          "https://www.allrecipes.com/thmb/MF7yU1MBbRlaT40ogVr-1PgggKc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/222658-frozen-vegetable-stir-fry-4x3-1382-583b53fa0bcd4247920611ad431c14cb.jpg",
       ingredients: [
         "1 tbsp vegetable oil",
         "1 red bell pepper, sliced",
@@ -102,7 +102,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Beef Tacos",
       image:
-          "https://cdn.ye-mek.net/App_UI/Img/out/650/2020/05/firinda-tavuk-sis-resimli-yemek-tarifi(15).jpg",
+          "https://danosseasoning.com/wp-content/uploads/2022/03/Beef-Tacos-1024x767.jpg",
       ingredients: [
         "1 lb. ground beef",
         "1 packet taco seasoning",
@@ -122,7 +122,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Greek Salad",
       image:
-          "https://cdn.ye-mek.net/App_UI/Img/out/650/2020/05/firinda-tavuk-sis-resimli-yemek-tarifi(15).jpg",
+          "https://www.southernliving.com/thmb/8M7xjBXyPtC8dkf8JWMSRo4fbZo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Greek-Salad-With-Baked-Feta-Batch59-Beauty-03-8a9f6350bdb04f2f848741fd87bf029a.jpg",
       ingredients: [
         "3 large tomatoes, chopped",
         "1 cucumber, sliced",
@@ -143,7 +143,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Chocolate Cake",
       image:
-          "https://cdn.ye-mek.net/App_UI/Img/out/650/2020/05/firinda-tavuk-sis-resimli-yemek-tarifi(15).jpg",
+          "https://www.recipetineats.com/wp-content/uploads/2018/03/Chocolate-Cake_9-SQ.jpg",
       ingredients: [
         "1 3/4 cups all-purpose flour",
         "1 1/2 tsp baking powder",
@@ -169,7 +169,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Pancakes",
       image:
-          "https://cdn.ye-mek.net/App_UI/Img/out/650/2020/05/firinda-tavuk-sis-resimli-yemek-tarifi(15).jpg",
+          "https://www.allrecipes.com/thmb/WqWggh6NwG-r8PoeA3OfW908FUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg",
       ingredients: [
         "1 cup all-purpose flour",
         "2 tbsp sugar",
