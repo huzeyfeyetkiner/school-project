@@ -15,7 +15,7 @@ class _SignupScreenState extends State<SignupScreen> {
   @override
   Widget build(BuildContext context) {
     final double heightValue =
-        MediaQuery.of(context).size.height / 1.3; //height of white box
+        MediaQuery.of(context).size.height / 1.6; //height of white box
 
     return MaterialApp(
       home: Scaffold(
@@ -93,22 +93,6 @@ class _SignupScreenState extends State<SignupScreen> {
                             ),
                             const SizedBox(
                               height: 10,
-                            ),
-                            TextFormField(
-                              decoration: InputDecoration(
-                                labelStyle:
-                                    const TextStyle(color: Colors.black),
-                                hintText: 'Password Confirmation',
-                                // icon: const Icon(Icons.lock),
-                                border: OutlineInputBorder(
-                                    borderRadius: BorderRadius.circular(12)),
-                              ),
-                              validator: (String? girilenDeger) {
-                                if (girilenDeger!.isEmpty) {
-                                  return 'You must enter a password';
-                                }
-                                return null;
-                              },
                             ),
                             const SizedBox(
                               height: 10,
