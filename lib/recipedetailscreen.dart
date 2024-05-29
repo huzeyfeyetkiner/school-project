@@ -31,53 +31,56 @@ class RecipeDetail extends StatelessWidget {
           ),
         ),
         body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Container(
-                height: 300,
-                width: double.maxFinite,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: NetworkImage(recipe.image),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-              ListTile(
-                title: Text(
-                  recipe.title,
-                  style: const TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-                    fontStyle: FontStyle.italic,
-                    color: Colors.orange,
-                  ),
-                ),
-                subtitle: Text(
-                  recipe.description,
-                  style: const TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.normal,
-                    fontStyle: FontStyle.normal,
-                    color: Colors.black,
-                  ),
-                ),
-              ),
-              ListView.builder(
-                shrinkWrap: true,
-                physics: NeverScrollableScrollPhysics(),
-                itemCount: recipe.ingredients.length,
-                itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 16.0, vertical: 0.0),
-                    child: IngredientsCard(
-                      ingredient: recipe.ingredients[index],
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: 16.0),
+            child: Column(
+              children: [
+                Container(
+                  height: 300,
+                  width: double.maxFinite,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: NetworkImage(recipe.image),
+                      fit: BoxFit.cover,
                     ),
-                  );
-                },
-              ),
-            ],
+                  ),
+                ),
+                ListTile(
+                  title: Text(
+                    recipe.title,
+                    style: const TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      fontStyle: FontStyle.italic,
+                      color: Colors.orange,
+                    ),
+                  ),
+                  subtitle: Text(
+                    recipe.description,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.normal,
+                      fontStyle: FontStyle.normal,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                ListView.builder(
+                  shrinkWrap: true,
+                  physics: NeverScrollableScrollPhysics(),
+                  itemCount: recipe.ingredients.length,
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 16.0, vertical: 0.0),
+                      child: IngredientsCard(
+                        ingredient: recipe.ingredients[index],
+                      ),
+                    );
+                  },
+                ),
+              ],
+            ),
           ),
         ),
       ),
