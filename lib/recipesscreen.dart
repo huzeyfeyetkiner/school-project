@@ -24,7 +24,7 @@ class RecipesScreen extends StatelessWidget {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/');
+                Navigator.pushNamed(context, '/profile');
               },
               child: const Icon(
                 Icons.supervised_user_circle,

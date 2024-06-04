@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:school_project/initialscreen.dart';
 import 'package:school_project/loginscreen.dart';
+import 'package:school_project/profilescreen.dart';
 import 'package:school_project/recipedetailscreen.dart';
 import 'package:school_project/recipesscreen.dart';
 import 'package:school_project/signupscreen.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => const LoginScreen(),
         '/signup': (context) => const SignupScreen(),
         '/recipes': (context) => const RecipesScreen(),
+        '/profile': (context) => const ProfileScreen(),
         // "/recipe_detail": (context) => const RecipeDetail(),
       },
     );
