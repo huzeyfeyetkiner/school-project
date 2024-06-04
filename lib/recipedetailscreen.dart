@@ -65,6 +65,68 @@ class RecipeDetail extends StatelessWidget {
                     ),
                   ),
                 ),
+                Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Column(
+                        children: [
+                          const Icon(
+                            Icons.timer,
+                            color: Colors.orange,
+                            size: 30.0,
+                          ),
+                          Text(
+                            "${recipe.prepTime} min",
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.normal,
+                              fontStyle: FontStyle.normal,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          const Icon(
+                            Icons.restaurant_menu,
+                            color: Colors.orange,
+                            size: 30.0,
+                          ),
+                          Text(
+                            "${recipe.cal} Calories",
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.normal,
+                              fontStyle: FontStyle.normal,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          const Icon(
+                            Icons.star,
+                            color: Colors.orange,
+                            size: 30.0,
+                          ),
+                          Text(
+                            "${recipe.rating}",
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.normal,
+                              fontStyle: FontStyle.normal,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
                 ListView.builder(
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
