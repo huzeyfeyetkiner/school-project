@@ -130,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               ElevatedButton(
                                 onPressed: () {
                                   if (_formKey.currentState!.validate()) {
-                                    Navigator.pushNamed(context, '/second');
+                                    Navigator.pushNamed(context, '/recipes');
                                   }
                                 },
                                 style: ElevatedButton.styleFrom(
