@@ -4,7 +4,7 @@ List<Recipes> recipes = [
   Recipes(
       title: "Lazagna",
       image:
-          "https://cdn.yemek.com/mnresize/940/940/uploads/2020/10/etsiz-cig-kofte-yemekcom.jpg",
+          "https://iasbh.tmgrup.com.tr/ac8313/650/344/0/145/1258/805?u=https://isbh.tmgrup.com.tr/sbh/2020/10/05/lazanya-tarifi-evde-lazanya-nasil-yapilir-hamuru-yapimi-icin-gerekli-malzemeler-1601887140773.jpg",
       ingredients: [
         "1 lb. ground beef",
         "1/2 cup onion, chopped",
@@ -216,7 +216,7 @@ List<Recipes> breakfastRecipes = [
   Recipes(
       title: "French Toast",
       image:
-          "https://www.simplyrecipes.com/thmb/dJ-XzMj5czmP79l1FFxOcRW_Ry0=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-French-Toast-LEAD-3b-05baf7fc80e744cbb2f8b8e42513b4e3.jpg",
+          "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/3/26/0/IE0309_French-Toast.jpg.rend.hgtvcom.1280.1280.suffix/1431730431340.jpeg",
       ingredients: [
         "4 large eggs",
         "2/3 cup milk",
@@ -234,7 +234,7 @@ List<Recipes> breakfastRecipes = [
   Recipes(
       title: "Scrambled Eggs",
       image:
-          "https://www.simplyrecipes.com/thmb/LPu9O0J49n3z-PeV3UsTkGhY-24=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Classic-Scrambled-Eggs-LEAD-5-a2ddafc04cd94c1b923b7cf94cc1f5b1.jpg",
+          "https://www.thespruceeats.com/thmb/M5-AmRX9SCiHDle-gLel_TOIr-c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/perfect-scrambled-eggs-995518-hero-01-6931b35c5087440a94dbdf751b1e16f4.jpg",
       ingredients: [
         "4 large eggs",
         "1/4 cup milk",
@@ -249,8 +249,7 @@ List<Recipes> breakfastRecipes = [
       rating: 4.5),
   Recipes(
       title: "Oatmeal",
-      image:
-          "https://www.wellplated.com/wp-content/uploads/2020/09/How-to-Make-Oatmeal-7.jpg",
+      image: "https://i.insider.com/5ff60881d184b30018aad575?width=700",
       ingredients: [
         "1 cup rolled oats",
         "2 cups water or milk",
@@ -265,7 +264,7 @@ List<Recipes> breakfastRecipes = [
   Recipes(
       title: "Smoothie Bowl",
       image:
-          "https://downshiftology.com/wp-content/uploads/2019/07/Smoothie-Bowl-5.jpg",
+          "https://img.taste.com.au/KZJZuz9r/taste/2016/11/fruity-smoothie-bowl-106970-1.jpeg",
       ingredients: [
         "1 cup frozen berries",
         "1 banana",
@@ -281,7 +280,7 @@ List<Recipes> breakfastRecipes = [
   Recipes(
       title: "Avocado Toast",
       image:
-          "https://cookieandkate.com/images/2020/04/avocado-toast-recipe.jpg",
+          "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg",
       ingredients: [
         "2 slices of bread",
         "1 ripe avocado",
@@ -300,7 +299,7 @@ List<Recipes> dinnerRecipes = [
   Recipes(
       title: "Grilled Chicken",
       image:
-          "https://www.simplyrecipes.com/thmb/h7CJy3CQ4__3vIoJSElFbRmJmL4=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-Chicken-LEAD-2-c4eb19b5de014b97a3e154e595a50f91.jpg",
+          "https://www.jocooks.com/wp-content/uploads/2022/07/grilled-chicken-breast-1-21.jpg",
       ingredients: [
         "4 boneless, skinless chicken breasts",
         "2 tbsp olive oil",
@@ -317,7 +316,7 @@ List<Recipes> dinnerRecipes = [
   Recipes(
       title: "Spaghetti Bolognese",
       image:
-          "https://www.recipetineats.com/wp-content/uploads/2019/03/Spaghetti-Bolognese_9.jpg",
+          "https://recipetineats.com/wp-content/uploads/2018/07/Spaghetti-Bolognese.jpg",
       ingredients: [
         "1 lb ground beef",
         "1 onion, chopped",
@@ -340,7 +339,7 @@ List<Recipes> dinnerRecipes = [
   Recipes(
       title: "Beef Stew",
       image:
-          "https://www.simplyrecipes.com/thmb/JkEdrj5ugA8-QT_YEQGv2ZlXxWk=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Stew-LEAD-5-7153b8f891cc4949a4b81296cda9707d.jpg",
+          "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/09/Beef-Stew-main.jpg",
       ingredients: [
         "2 lbs beef stew meat, cubed",
         "3 tbsp all-purpose flour",
@@ -363,7 +362,7 @@ List<Recipes> dinnerRecipes = [
   Recipes(
       title: "Stuffed Bell Peppers",
       image:
-          "https://www.simplyrecipes.com/thmb/di_Hup5_wGh8d7B8M5UjfiX8qpo=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Stuffed-Peppers-LEAD-2-54d1b04c7c8b4b7987ed8cc193e9f2a3.jpg",
+          "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/59/39/1/T3LQYq3KTHqAdqkJ258X_stuffed%20peppers%20SITE-2.jpg",
       ingredients: [
         "4 large bell peppers",
         "1 lb ground beef",
@@ -383,7 +382,7 @@ List<Recipes> dinnerRecipes = [
   Recipes(
       title: "Salmon Fillet",
       image:
-          "https://www.simplyrecipes.com/thmb/w_L1lnFwKMv-ZD5jPK2g0E7gqFo=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Salmon-Fillet-LEAD-1-ccf29f700c6140ffbb799e4e4d2065f8.jpg",
+          "https://www.seriouseats.com/thmb/-2QmwLel9zMswPwmhnaSqdC6Q-k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SEA-crispy-pan-seared-salmon-fillets-recipe-hero-6059f48d4f314978af13f94db470d0a4.jpg",
       ingredients: [
         "4 salmon fillets",
         "2 tbsp olive oil",
@@ -448,7 +447,7 @@ List<Recipes> saladRecipes = [
   Recipes(
       title: "Caesar Salad",
       image:
-          "https://www.simplyrecipes.com/thmb/3h0pg2rm9v2d0kCEK21zrQ-6_zA=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Caesar-Salad-LEAD-5-aaf3efdd971441a0835057b193ff5e6f.jpg",
+          "https://www.simplyrecipes.com/thmb/qKL0-KpK_Lq9kmr14Fxl7IcSQMY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Caesar-Salad-METHOD-07-2-87c72fc60da74b38b5d14022d8f9eb01.jpg",
       ingredients: [
         "1 large head of romaine lettuce, chopped",
         "1/2 cup grated Parmesan cheese",
@@ -465,7 +464,7 @@ List<Recipes> saladRecipes = [
   Recipes(
       title: "Caprese Salad",
       image:
-          "https://www.simplyrecipes.com/thmb/vHb_m_Z2y77XIBjU1IQZTAw7fnU=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Caprese-Salad-LEAD-5-d7fa9b647cf3460b9d078c3a950e979e.jpg",
+          "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
       ingredients: [
         "4 large tomatoes, sliced",
         "1 lb fresh mozzarella, sliced",
@@ -482,7 +481,7 @@ List<Recipes> saladRecipes = [
   Recipes(
       title: "Cobb Salad",
       image:
-          "https://www.simplyrecipes.com/thmb/j9_YiA65fMvFnx-IL7SKj3nT2Ic=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cobb-Salad-LEAD-2-5e7ea599c8964209b65ea11ef29e4b26.jpg",
+          "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4HSB4C2MXJ5OCCP4HGYPGP47EU.jpg",
       ingredients: [
         "4 cups mixed salad greens",
         "2 chicken breasts, cooked and sliced",
@@ -501,7 +500,7 @@ List<Recipes> saladRecipes = [
   Recipes(
       title: "Quinoa Salad",
       image:
-          "https://www.simplyrecipes.com/thmb/89tGuT_Ot1mOPaLDvERu_hb_G-U=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Quinoa-Salad-LEAD-5-ef1e6632093e4518bc9e25e20a79dd3a.jpg",
+          "https://www.recipetineats.com/wp-content/uploads/2021/03/My-Favourite-Quinoa-Salad-5-SQ.jpg",
       ingredients: [
         "1 cup quinoa",
         "2 cups water",
@@ -521,7 +520,7 @@ List<Recipes> saladRecipes = [
   Recipes(
       title: "Waldorf Salad",
       image:
-          "https://www.simplyrecipes.com/thmb/GG-9g5sM81QoTX7cFUbmKiR-3kk=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Waldorf-Salad-LEAD-2-2e2f99f0c70245a99b20e98c21f7e6be.jpg",
+          "https://becs-table.com.au/wp-content/uploads/2023/11/Waldorf-1200.jpg",
       ingredients: [
         "2 large apples, cored and diced",
         "1 cup seedless grapes, halved",
