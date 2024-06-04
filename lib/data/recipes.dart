@@ -189,3 +189,352 @@ List<Recipes> recipes = [
       prepTime: 20,
       rating: 4.4)
 ];
+
+List<Recipes> breakfastRecipes = [
+  Recipes(
+      title: "Pancakes",
+      image:
+          "https://www.allrecipes.com/thmb/WqWggh6NwG-r8PoeA3OfW908FUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg",
+      ingredients: [
+        "1 cup all-purpose flour",
+        "2 tbsp sugar",
+        "1 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1/4 tsp salt",
+        "1 cup buttermilk",
+        "1 large egg",
+        "2 tbsp unsalted butter, melted",
+        "1 tsp vanilla extract",
+        "Butter for cooking",
+        "Maple syrup for serving"
+      ],
+      description:
+          "To make Pancakes, whisk together the flour, sugar, baking powder, baking soda, and salt in a large bowl. In another bowl, whisk together the buttermilk, egg, melted butter, and vanilla extract. Pour the wet ingredients into the dry ingredients and stir until just combined (the batter will be lumpy). Heat a griddle or large skillet over medium heat and grease with butter. Pour 1/4 cup of batter onto the griddle for each pancake and cook until bubbles form on the surface, then flip and cook until golden brown. Serve with butter and maple syrup.",
+      cal: 350,
+      prepTime: 20,
+      rating: 4.4),
+  Recipes(
+      title: "French Toast",
+      image:
+          "https://www.simplyrecipes.com/thmb/dJ-XzMj5czmP79l1FFxOcRW_Ry0=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-French-Toast-LEAD-3b-05baf7fc80e744cbb2f8b8e42513b4e3.jpg",
+      ingredients: [
+        "4 large eggs",
+        "2/3 cup milk",
+        "2 tsp vanilla extract",
+        "1 tsp ground cinnamon",
+        "8 slices of bread",
+        "Butter for cooking",
+        "Maple syrup for serving"
+      ],
+      description:
+          "To make French Toast, whisk together the eggs, milk, vanilla extract, and cinnamon in a shallow dish. Heat a large skillet over medium heat and add butter. Dip each slice of bread in the egg mixture, ensuring both sides are coated, and place in the skillet. Cook until golden brown on both sides. Serve with butter and maple syrup.",
+      cal: 300,
+      prepTime: 15,
+      rating: 4.6),
+  Recipes(
+      title: "Scrambled Eggs",
+      image:
+          "https://www.simplyrecipes.com/thmb/LPu9O0J49n3z-PeV3UsTkGhY-24=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Classic-Scrambled-Eggs-LEAD-5-a2ddafc04cd94c1b923b7cf94cc1f5b1.jpg",
+      ingredients: [
+        "4 large eggs",
+        "1/4 cup milk",
+        "Salt and pepper to taste",
+        "1 tbsp butter",
+        "Chopped chives for garnish"
+      ],
+      description:
+          "To make Scrambled Eggs, whisk together the eggs, milk, salt, and pepper in a bowl. Heat a nonstick skillet over medium heat and add the butter. Once melted, pour in the egg mixture and cook, stirring gently, until the eggs are softly set and slightly runny in places. Remove from heat and let the eggs finish cooking off the heat. Garnish with chopped chives.",
+      cal: 200,
+      prepTime: 10,
+      rating: 4.5),
+  Recipes(
+      title: "Oatmeal",
+      image:
+          "https://www.wellplated.com/wp-content/uploads/2020/09/How-to-Make-Oatmeal-7.jpg",
+      ingredients: [
+        "1 cup rolled oats",
+        "2 cups water or milk",
+        "1/4 tsp salt",
+        "Toppings of choice (e.g., fruits, nuts, honey)"
+      ],
+      description:
+          "To make Oatmeal, bring the water or milk to a boil in a saucepan. Stir in the oats and salt. Reduce heat and simmer, stirring occasionally, for about 5 minutes until the oats are tender and the liquid is absorbed. Serve with your favorite toppings such as fruits, nuts, and honey.",
+      cal: 150,
+      prepTime: 10,
+      rating: 4.3),
+  Recipes(
+      title: "Smoothie Bowl",
+      image:
+          "https://downshiftology.com/wp-content/uploads/2019/07/Smoothie-Bowl-5.jpg",
+      ingredients: [
+        "1 cup frozen berries",
+        "1 banana",
+        "1/2 cup Greek yogurt",
+        "1/2 cup almond milk",
+        "Toppings of choice (e.g., granola, chia seeds, fresh fruit)"
+      ],
+      description:
+          "To make a Smoothie Bowl, blend together the frozen berries, banana, Greek yogurt, and almond milk until smooth. Pour into a bowl and top with granola, chia seeds, and fresh fruit.",
+      cal: 250,
+      prepTime: 10,
+      rating: 4.7),
+  Recipes(
+      title: "Avocado Toast",
+      image:
+          "https://cookieandkate.com/images/2020/04/avocado-toast-recipe.jpg",
+      ingredients: [
+        "2 slices of bread",
+        "1 ripe avocado",
+        "Salt and pepper to taste",
+        "Red pepper flakes (optional)",
+        "Lemon juice (optional)"
+      ],
+      description:
+          "To make Avocado Toast, toast the bread slices to your desired level of crispiness. While the bread is toasting, mash the avocado in a bowl and season with salt, pepper, and a squeeze of lemon juice if desired. Spread the mashed avocado on the toasted bread. Sprinkle with red pepper flakes if desired. Serve immediately.",
+      cal: 300,
+      prepTime: 5,
+      rating: 4.8)
+];
+
+List<Recipes> dinnerRecipes = [
+  Recipes(
+      title: "Grilled Chicken",
+      image:
+          "https://www.simplyrecipes.com/thmb/h7CJy3CQ4__3vIoJSElFbRmJmL4=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-Chicken-LEAD-2-c4eb19b5de014b97a3e154e595a50f91.jpg",
+      ingredients: [
+        "4 boneless, skinless chicken breasts",
+        "2 tbsp olive oil",
+        "1 lemon, juiced",
+        "3 cloves garlic, minced",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      description:
+          "To make Grilled Chicken, mix olive oil, lemon juice, garlic, oregano, salt, and pepper in a bowl. Place the chicken breasts in a resealable plastic bag and pour the marinade over them. Seal the bag and refrigerate for at least 30 minutes. Preheat the grill to medium-high heat. Grill the chicken for 6-8 minutes per side, or until fully cooked. Serve hot.",
+      cal: 350,
+      prepTime: 40,
+      rating: 4.7),
+  Recipes(
+      title: "Spaghetti Bolognese",
+      image:
+          "https://www.recipetineats.com/wp-content/uploads/2019/03/Spaghetti-Bolognese_9.jpg",
+      ingredients: [
+        "1 lb ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 carrot, grated",
+        "1 celery stick, chopped",
+        "1 can diced tomatoes",
+        "1/4 cup tomato paste",
+        "1 cup beef broth",
+        "2 tsp dried oregano",
+        "1 tsp dried basil",
+        "Salt and pepper to taste",
+        "400g spaghetti"
+      ],
+      description:
+          "To make Spaghetti Bolognese, cook the ground beef, onion, and garlic in a large skillet over medium heat until browned. Add the grated carrot and chopped celery, and cook for 5 minutes. Stir in the diced tomatoes, tomato paste, beef broth, oregano, basil, salt, and pepper. Simmer for 30 minutes, stirring occasionally. Cook the spaghetti according to package instructions. Serve the Bolognese sauce over the cooked spaghetti.",
+      cal: 450,
+      prepTime: 50,
+      rating: 4.8),
+  Recipes(
+      title: "Beef Stew",
+      image:
+          "https://www.simplyrecipes.com/thmb/JkEdrj5ugA8-QT_YEQGv2ZlXxWk=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Stew-LEAD-5-7153b8f891cc4949a4b81296cda9707d.jpg",
+      ingredients: [
+        "2 lbs beef stew meat, cubed",
+        "3 tbsp all-purpose flour",
+        "2 tbsp vegetable oil",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "4 cups beef broth",
+        "3 carrots, sliced",
+        "3 potatoes, cubed",
+        "2 celery sticks, sliced",
+        "1 tsp dried thyme",
+        "1 tsp dried rosemary",
+        "Salt and pepper to taste"
+      ],
+      description:
+          "To make Beef Stew, toss the beef cubes in flour, shaking off excess. Heat the vegetable oil in a large pot over medium heat. Brown the beef in batches, then remove and set aside. In the same pot, cook the onion and garlic until softened. Return the beef to the pot, add the beef broth, carrots, potatoes, celery, thyme, rosemary, salt, and pepper. Bring to a boil, then reduce the heat and simmer for 1.5 to 2 hours, or until the beef is tender. Serve hot.",
+      cal: 550,
+      prepTime: 120,
+      rating: 4.9),
+  Recipes(
+      title: "Stuffed Bell Peppers",
+      image:
+          "https://www.simplyrecipes.com/thmb/di_Hup5_wGh8d7B8M5UjfiX8qpo=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Stuffed-Peppers-LEAD-2-54d1b04c7c8b4b7987ed8cc193e9f2a3.jpg",
+      ingredients: [
+        "4 large bell peppers",
+        "1 lb ground beef",
+        "1 cup cooked rice",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 can diced tomatoes",
+        "1 cup shredded mozzarella cheese",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      description:
+          "To make Stuffed Bell Peppers, preheat the oven to 375°F. Cut the tops off the bell peppers and remove the seeds. In a skillet, cook the ground beef, onion, and garlic until the beef is browned. Stir in the cooked rice, diced tomatoes, oregano, salt, and pepper. Stuff the bell peppers with the beef mixture and place them in a baking dish. Sprinkle the tops with mozzarella cheese. Bake for 30 minutes, or until the peppers are tender and the cheese is melted and golden. Serve hot.",
+      cal: 400,
+      prepTime: 60,
+      rating: 4.6),
+  Recipes(
+      title: "Salmon Fillet",
+      image:
+          "https://www.simplyrecipes.com/thmb/w_L1lnFwKMv-ZD5jPK2g0E7gqFo=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Salmon-Fillet-LEAD-1-ccf29f700c6140ffbb799e4e4d2065f8.jpg",
+      ingredients: [
+        "4 salmon fillets",
+        "2 tbsp olive oil",
+        "1 lemon, sliced",
+        "3 cloves garlic, minced",
+        "Salt and pepper to taste",
+        "Fresh dill for garnish"
+      ],
+      description:
+          "To make Salmon Fillet, preheat the oven to 400°F. Place the salmon fillets on a baking sheet lined with parchment paper. Drizzle with olive oil, and season with minced garlic, salt, and pepper. Top each fillet with lemon slices. Bake for 15-20 minutes, or until the salmon is cooked through. Garnish with fresh dill and serve.",
+      cal: 350,
+      prepTime: 25,
+      rating: 4.8),
+  Recipes(
+      title: "Vegetable Stir Fry",
+      image:
+          "https://www.allrecipes.com/thmb/MF7yU1MBbRlaT40ogVr-1PgggKc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/222658-frozen-vegetable-stir-fry-4x3-1382-583b53fa0bcd4247920611ad431c14cb.jpg",
+      ingredients: [
+        "1 tbsp vegetable oil",
+        "1 red bell pepper, sliced",
+        "1 yellow bell pepper, sliced",
+        "1 green bell pepper, sliced",
+        "1 cup broccoli florets",
+        "1 cup snap peas",
+        "2 carrots, sliced",
+        "2 cloves garlic, minced",
+        "1 tbsp ginger, minced",
+        "1/4 cup soy sauce",
+        "2 tbsp oyster sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp cornstarch mixed with 2 tbsp water"
+      ],
+      description:
+          "To make Vegetable Stir Fry, heat the vegetable oil in a large wok or skillet over high heat. Add the garlic and ginger, and cook for 1 minute until fragrant. Add the bell peppers, broccoli, snap peas, and carrots, and stir-fry for 5-7 minutes until the vegetables are tender-crisp. Stir in the soy sauce, oyster sauce, and sesame oil. Pour in the cornstarch mixture and cook for another 2 minutes until the sauce has thickened. Serve the stir-fry over rice or noodles.",
+      cal: 300,
+      prepTime: 15,
+      rating: 4.2)
+];
+
+List<Recipes> saladRecipes = [
+  Recipes(
+      title: "Greek Salad",
+      image:
+          "https://www.southernliving.com/thmb/8M7xjBXyPtC8dkf8JWMSRo4fbZo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Greek-Salad-With-Baked-Feta-Batch59-Beauty-03-8a9f6350bdb04f2f848741fd87bf029a.jpg",
+      ingredients: [
+        "3 large tomatoes, chopped",
+        "1 cucumber, sliced",
+        "1 red onion, sliced",
+        "1 green bell pepper, sliced",
+        "1/2 cup Kalamata olives",
+        "200g feta cheese, crumbled",
+        "1/4 cup extra virgin olive oil",
+        "1 tbsp red wine vinegar",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      description:
+          "To make Greek Salad, combine the tomatoes, cucumber, red onion, green bell pepper, and Kalamata olives in a large bowl. In a small bowl, whisk together the olive oil, red wine vinegar, oregano, salt, and pepper. Pour the dressing over the salad and toss to combine. Top with crumbled feta cheese and serve immediately.",
+      cal: 200,
+      prepTime: 10,
+      rating: 4.3),
+  Recipes(
+      title: "Caesar Salad",
+      image:
+          "https://www.simplyrecipes.com/thmb/3h0pg2rm9v2d0kCEK21zrQ-6_zA=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Caesar-Salad-LEAD-5-aaf3efdd971441a0835057b193ff5e6f.jpg",
+      ingredients: [
+        "1 large head of romaine lettuce, chopped",
+        "1/2 cup grated Parmesan cheese",
+        "1 cup croutons",
+        "1/2 cup Caesar dressing",
+        "1 lemon, juiced",
+        "Salt and pepper to taste"
+      ],
+      description:
+          "To make Caesar Salad, place the chopped romaine lettuce in a large bowl. Add the grated Parmesan cheese and croutons. Drizzle with Caesar dressing and lemon juice, then toss to combine. Season with salt and pepper to taste. Serve immediately.",
+      cal: 250,
+      prepTime: 10,
+      rating: 4.5),
+  Recipes(
+      title: "Caprese Salad",
+      image:
+          "https://www.simplyrecipes.com/thmb/vHb_m_Z2y77XIBjU1IQZTAw7fnU=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Caprese-Salad-LEAD-5-d7fa9b647cf3460b9d078c3a950e979e.jpg",
+      ingredients: [
+        "4 large tomatoes, sliced",
+        "1 lb fresh mozzarella, sliced",
+        "1 bunch fresh basil leaves",
+        "1/4 cup extra virgin olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt and pepper to taste"
+      ],
+      description:
+          "To make Caprese Salad, alternate slices of tomato and fresh mozzarella on a serving platter. Tuck fresh basil leaves between the slices. Drizzle with olive oil and balsamic vinegar. Season with salt and pepper to taste. Serve immediately.",
+      cal: 300,
+      prepTime: 15,
+      rating: 4.6),
+  Recipes(
+      title: "Cobb Salad",
+      image:
+          "https://www.simplyrecipes.com/thmb/j9_YiA65fMvFnx-IL7SKj3nT2Ic=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cobb-Salad-LEAD-2-5e7ea599c8964209b65ea11ef29e4b26.jpg",
+      ingredients: [
+        "4 cups mixed salad greens",
+        "2 chicken breasts, cooked and sliced",
+        "4 strips bacon, cooked and crumbled",
+        "2 hard-boiled eggs, chopped",
+        "1 avocado, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup blue cheese, crumbled",
+        "1/4 cup ranch dressing"
+      ],
+      description:
+          "To make Cobb Salad, arrange the mixed salad greens on a large serving platter. Top with rows of sliced chicken, crumbled bacon, chopped eggs, diced avocado, halved cherry tomatoes, and crumbled blue cheese. Drizzle with ranch dressing. Serve immediately.",
+      cal: 450,
+      prepTime: 20,
+      rating: 4.7),
+  Recipes(
+      title: "Quinoa Salad",
+      image:
+          "https://www.simplyrecipes.com/thmb/89tGuT_Ot1mOPaLDvERu_hb_G-U=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Quinoa-Salad-LEAD-5-ef1e6632093e4518bc9e25e20a79dd3a.jpg",
+      ingredients: [
+        "1 cup quinoa",
+        "2 cups water",
+        "1 cucumber, diced",
+        "1 red bell pepper, diced",
+        "1/2 red onion, diced",
+        "1/4 cup fresh parsley, chopped",
+        "1/4 cup olive oil",
+        "2 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      description:
+          "To make Quinoa Salad, rinse the quinoa under cold water. In a medium saucepan, bring the quinoa and water to a boil. Reduce the heat to low, cover, and simmer for 15 minutes or until the quinoa is tender and the water is absorbed. Let it cool. In a large bowl, combine the cooked quinoa, cucumber, red bell pepper, red onion, and parsley. In a small bowl, whisk together the olive oil, lemon juice, salt, and pepper. Pour the dressing over the salad and toss to combine. Serve chilled or at room temperature.",
+      cal: 250,
+      prepTime: 30,
+      rating: 4.5),
+  Recipes(
+      title: "Waldorf Salad",
+      image:
+          "https://www.simplyrecipes.com/thmb/GG-9g5sM81QoTX7cFUbmKiR-3kk=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Waldorf-Salad-LEAD-2-2e2f99f0c70245a99b20e98c21f7e6be.jpg",
+      ingredients: [
+        "2 large apples, cored and diced",
+        "1 cup seedless grapes, halved",
+        "1 cup celery, sliced",
+        "1/2 cup walnuts, chopped",
+        "1/2 cup mayonnaise",
+        "2 tbsp lemon juice",
+        "Salt and pepper to taste",
+        "Lettuce leaves for serving"
+      ],
+      description:
+          "To make Waldorf Salad, in a large bowl, combine the diced apples, halved grapes, sliced celery, and chopped walnuts. In a small bowl, whisk together the mayonnaise, lemon juice, salt, and pepper. Pour the dressing over the fruit mixture and toss to combine. Serve on lettuce leaves.",
+      cal: 200,
+      prepTime: 15,
+      rating: 4.4)
+];

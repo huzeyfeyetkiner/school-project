@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:school_project/categoryscreen.dart";
 import "package:school_project/data/recipes.dart";
 import "package:school_project/recipedetailscreen.dart";
 import "package:school_project/widgets/recipecard.dart";
@@ -35,6 +36,47 @@ class RecipesScreen extends StatelessWidget {
         ),
         body: Column(
           children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                CategoryScreen(category: breakfastRecipes),
+                          ),
+                        );
+                      },
+                      child: const Text("Breakfast")),
+                  ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                CategoryScreen(category: dinnerRecipes),
+                          ),
+                        );
+                      },
+                      child: const Text("Dinner")),
+                  ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                CategoryScreen(category: saladRecipes),
+                          ),
+                        );
+                      },
+                      child: const Text("Salads"))
+                ],
+              ),
+            ),
             Expanded(
               child: ListView.builder(
                 itemCount: recipes.length,
